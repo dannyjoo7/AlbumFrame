@@ -1,0 +1,46 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/tool/branch-guard.sh\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/c/Users/USER/Workspace/2. Personal Workspace/JOO-Labs/JOO-Labs_WIKI/hooks/session-start.sh\" \"$CLAUDE_PROJECT_DIR\" \"AlbumFrame\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/tool/native-source-hook.sh\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/c/Users/USER/Workspace/2. Personal Workspace/JOO-Labs/JOO-Labs_WIKI/hooks/wiki-drift.sh\" \"$CLAUDE_PROJECT_DIR\" \"AlbumFrame\""
+          }
+        ]
+      }
+    ]
+  }
+}

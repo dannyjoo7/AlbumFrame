@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">모먼트 프레임</string>
+    <string name="home_title">모먼트 프레임</string>
+    <string name="home_subtitle">좋아하는 앨범과 실시간 카메라를 한 화면에 띄워 보세요.</string>
+    <string name="select_album">재생할 앨범</string>
+    <string name="all_photos">모든 사진</string>
+    <string name="unnamed_album">이름 없는 앨범</string>
+    <string name="photo_count">%1$d장</string>
+    <string name="start_slideshow">슬라이드쇼 시작</string>
+    <string name="loading_photos">사진 불러오는 중</string>
+    <string name="no_albums">표시할 앨범이 없습니다.</string>
+    <string name="no_albums_body">갤러리에 사진을 추가하거나 사진 접근 범위를 확인해 주세요.</string>
+    <string name="album_load_failed">앨범을 불러오지 못했습니다.</string>
+    <string name="empty_album">선택한 앨범에 표시할 사진이 없습니다.</string>
+    <string name="retry">다시 시도</string>
+
+    <string name="permission_title">사진 접근이 필요합니다</string>
+    <string name="permission_body">선택한 앨범을 기기 안에서만 읽어 디지털 액자로 보여 줍니다.</string>
+    <string name="grant_permission">사진 접근 허용</string>
+    <string name="open_app_settings">앱 설정 열기</string>
+    <string name="limited_access_title">선택한 사진만 접근 중입니다</string>
+    <string name="limited_access_body">현재 선택한 사진만 재생할 수 있습니다. 전체 앨범을 사용하려면 전체 사진 접근을 허용해 주세요.</string>
+    <string name="choose_more_photos">사진 더 선택</string>
+    <string name="allow_all_photos">전체 접근 설정</string>
+    <string name="accessible_photos">접근 허용된 사진</string>
+
+    <string name="slideshow_settings">재생 설정</string>
+    <string name="interval">사진 전환 간격</string>
+    <string name="seconds">%1$d초</string>
+    <string name="order">재생 순서</string>
+    <string name="chronological">최신순</string>
+    <string name="shuffled">무작위</string>
+    <string name="photo_fit">사진 맞춤</string>
+    <string name="contain">사진 전체</string>
+    <string name="cover">화면 채우기</string>
+    <string name="camera_display">카메라 화면</string>
+    <string name="photo_only">사진만</string>
+    <string name="photo_and_camera">사진 + 카메라</string>
+    <string name="camera_direction">카메라 방향</string>
+    <string name="front_camera">전면</string>
+    <string name="back_camera">후면</string>
+    <string name="switch_camera">카메라 전환</string>
+    <string name="turn_camera_on">카메라 켜기</string>
+    <string name="turn_camera_off">카메라 끄기</string>
+    <string name="camera_live">LIVE</string>
+    <string name="camera_permission_required">카메라 접근을 허용해 주세요.</string>
+    <string name="grant_camera_permission">카메라 허용</string>
+    <string name="camera_unavailable">이 기기에서 카메라를 사용할 수 없습니다.</string>
+    <string name="camera_open_failed">카메라를 열지 못했습니다.</string>
+    <string name="system_screensaver">Android 시스템 화면보호기</string>
+    <string name="open_screensaver_settings">시스템 화면보호기로 설정</string>
+
+    <string name="close">닫기</string>
+    <string name="previous_photo">이전 사진</string>
+    <string name="next_photo">다음 사진</string>
+    <string name="pause">일시정지</string>
+    <string name="play">재생</string>
+    <string name="player_progress">%1$d / %2$d</string>
+    <string name="image_unavailable">사진을 표시하지 못했습니다.</string>
+
+    <string name="dream_name">모먼트 프레임</string>
+    <string name="dream_description">선택한 앨범과 실시간 카메라, 시계를 함께 보여 줍니다.</string>
+    <string name="dream_album_required">모먼트 프레임 앱에서 앨범을 먼저 선택해 주세요.</string>
+    <string name="dream_permission_required">모먼트 프레임 앱에서 사진 접근을 허용해 주세요.</string>
+    <string name="dream_empty_album">선택한 앨범에 표시할 사진이 없습니다.</string>
+    <string name="dream_photo_error">사진을 표시하지 못했습니다.</string>
+    <string name="dream_settings_error">저장된 재생 설정을 읽지 못했습니다.</string>
+</resources>
